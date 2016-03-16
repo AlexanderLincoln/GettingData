@@ -20,4 +20,10 @@ Select measurements from the original data are summarized for each subject and a
 We only look at the measurements that are mean or standard deviation, and then show the average of each.
 
 These are the steps:
-
+1. Loading the data and merging the activity and subject.
+2. Adding the descriptive column names.
+3. Merging the training and test data.
+4. Discarding columns related to other measurements.
+5. Adding the descriptive activity names.
+6. Grouping and summarizing the data.
+7. Saving the file.
