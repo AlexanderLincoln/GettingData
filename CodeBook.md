@@ -13,4 +13,11 @@ The data for this project consists of differnt measuments of subject movement.
 
 >The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
+## Analysis Process
+
+Select measurements from the original data are summarized for each subject and activity.  
+
+We only look at the measurements that are mean or standard deviation, and then show the average of each.
+
+These are the steps:
 
